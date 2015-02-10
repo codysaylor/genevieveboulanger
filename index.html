@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Geneveive</title>
+	<link rel="icon" type="image/png" href="http://i.imgur.com/ATqk6DI.png">
+	<link href='http://fonts.googleapis.com/css?family=Dancing+Script' rel='stylesheet' type='text/css'>
+	<style>
+		html, body {
+			margin: 0;
+			padding: 0;
+			height: 100%;
+			min-height: 100%;
+			overflow: hidden;
+			transition: all 1s;
+			-webkit-transition: all 1s;
+		}
+		img {
+			max-width: 100%;
+		}
+		.container {
+			height: 100%;
+			min-height: 100%;
+			padding: 0px 20px;
+		}
+		.hero-wrapper {
+			height: 50%;
+			min-height: 50%;
+			overflow: hidden;
+		/*	display: flex;
+			display: -webkit-box;
+			display: -moz-box;
+			display: -ms-flexbox;
+			display: -webkit-flex;*/
+		}
+		.hero-wrapper img {
+			float: left;
+			width: 50%;
+			display: flex;
+		}
+		.headshot {
+			background: url(img/genevieve.jpg) top center no-repeat;
+			height: 350px;
+			width: 350px;
+			background-size: 100%;
+			border-radius: 50%;
+			position: absolute;
+			top: 0px;
+			left: 50%;
+			margin-left: -175px;
+			z-index: 1;
+		}
+		.blurb {
+			font-family: 'Dancing Script', sans-serif;
+			padding: 18px;
+			text-align: center;
+			font-size: 1.6em;
+			position: absolute;
+			top: 40%;
+			left: 50%;
+			height: 100px;
+			width: 500px;
+			margin-left: -268px;
+			background: white;
+			border-radius: 50px;
+			z-index: 222;
+		}
+		.photo1 {
+			background: url(img/yoga.jpg) top center no-repeat;
+			background-size: 100%;
+			width: 50%;
+			height: 50%;
+			min-height: 50%;
+			overflow: hidden;
+			float: left;
+		}
+		.photo2 {
+			background: url(img/photo.jpg) center center no-repeat;
+			background-size: 100%;
+			width: 50%;
+			height: 50%;
+			min-height: 50%;
+			overflow: hidden;
+			float: left;
+		}
+		.logo1 {
+			background: url(http://i.imgur.com/oxsLpyx.png) center center no-repeat;
+			background-size: 100%;
+			width: 50%;
+			height: 50%;
+			float: left;
+		}
+		.logo2 {
+			background: url(http://i.imgur.com/0809k1l.png) center center no-repeat;
+			background-size: 100%;
+			width: 50%;
+			height: 50%;
+			float: left;
+		}
+		@media (max-width:870px) {
+			.headshot {
+				height: 280px;
+				width: 280px;
+				margin-left: -140px;
+				top: 50px;
+			}
+		}
+		@media (max-width: 660px) {
+			.logo1 {
+				background: url(http://i.imgur.com/ATqk6DI.png) center center no-repeat;
+				background-size: 100%;
+				width: 50%;
+				float: left;
+				height: 50%;
+			}
+			.logo2 {
+				background: url(http://i.imgur.com/XAxbZnQ.png) center center no-repeat;
+				background-size: 100%;
+				width: 50%;
+				float: left;
+				height: 50%;
+			}
+			.headshot {
+				width: 230px;
+				height: 230px;
+				margin-left: -115px;
+			}
+			.blurb {
+				padding: 6px;
+				width: 100%;
+				left: 0px;
+				border-radius: 0px;
+				margin-left: 0px;
+				border-radius: 0px;
+			}
+		}
+	</style>
+</head>
+<body>
+	<!-- <div class="hero-wrapper">
+		<img src="img/yoga.jpg" alt="">
+		<img src="img/photo.jpg" alt="">
+	</div> -->
+	<div class="headshot"></div>
+	<span class="blurb">
+		Hello. Welcome. I am so glad you are here.<br>
+		My name is Genevieve. I am a Yoga Instructing Photographer that has fallen in love with love.
+	</span>
+	<div class="photo1"></div><div class="photo2"></div>
+	<div class="container">
+		<a href="http://ishineyoga.com"><div class="logo1"></div></a>
+		<a href="http://loveandlightphotography.me"><div class="logo2"></div></a>
+	</div>
+</body>
+</html>
