@@ -1,0 +1,146 @@
+a {
+  color: purple;
+  text-decoration: none; }
+
+a:hover {
+  border-bottom: thin solid; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100vh; }
+
+img {
+  max-width: 100%; }
+
+.container {
+  position: relative;
+  height: 100vh; }
+
+.blurb {
+  font-family: 'Dancing Script', sans-serif;
+  font-size: 1em;
+  position: absolute;
+  top: 50vh;
+  left: 0;
+  width: 98%;
+  background: white;
+  text-align: center;
+  padding: 5% 1%;
+  z-index: 3; }
+  @media only screen and (min-width: 480px) {
+    .blurb {
+      font-size: 1.5em; } }
+  @media only screen and (min-width: 768px) {
+    .blurb {
+      left: 50%;
+      width: 500px;
+      margin-left: -275px;
+      padding: 25px;
+      border-radius: 50px; } }
+
+.photo-container {
+  height: 50vh;
+  width: 100%;
+  position: relative; }
+  @media only screen and (min-width: 480px) {
+    .photo-container {
+      height: 60vh; } }
+  @media only screen and (min-width: 768px) {
+    .photo-container {
+      height: 70vh; } }
+  @media only screen and (min-width: 1170px) {
+    .photo-container {
+      height: 80vh; } }
+
+.photo1 {
+  background: url(//i.imgur.com/1Yp9Tay.jpg) center center no-repeat;
+  background-size: cover;
+  width: 50%;
+  height: 100%;
+  display: inline-block; }
+  @media only screen and (min-width: 480px) {
+    .photo1 {
+      display: block;
+      float: left; } }
+  @media only screen and (min-width: 768px) {
+    .photo1 {
+      background: url(//i.imgur.com/1Yp9Tay.jpg) center 0px no-repeat;
+      background-size: cover; } }
+
+.photo2 {
+  background: url(//i.imgur.com/gQJSWsQ.jpg) center center no-repeat;
+  background-size: cover;
+  width: 50%;
+  height: 100%;
+  display: inline-block; }
+  @media only screen and (min-width: 480px) {
+    .photo2 {
+      display: block;
+      float: left; } }
+  @media only screen and (min-width: 768px) {
+    .photo2 {
+      background: url(//i.imgur.com/gQJSWsQ.jpg) center 0px no-repeat;
+      background-size: cover; } }
+
+.headshot {
+  width: 40vh;
+  height: 40vh;
+  margin-left: -20vh;
+  background: url(http://i.imgur.com/gGpYBqd.jpg) top center no-repeat;
+  background-size: 100%;
+  border-radius: 50%;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  max-width: 100%;
+  z-index: 1; }
+  @media only screen and (min-width: 480px) {
+    .headshot {
+      width: 40vh;
+      height: 40vh;
+      margin-left: -20vh; } }
+  @media only screen and (min-width: 768px) {
+    .headshot {
+      width: 50vh;
+      height: 50vh;
+      margin-left: -25vh;
+      top: 5%; } }
+  @media only screen and (min-width: 1170px) {
+    .headshot {
+      width: 60vh;
+      height: 60vh;
+      margin-left: -30vh; } }
+
+.logo-container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 30vh;
+  width: 100%;
+  z-index: 4; }
+  @media only screen and (min-width: 1170px) {
+    .logo-container {
+      height: 20vh; } }
+  .logo-container .logo1 {
+    background: url(http://i.imgur.com/ATqk6DI.png) center center no-repeat;
+    background-size: 75%;
+    width: 50%;
+    height: 100%;
+    float: left;
+    text-align: center; }
+    @media only screen and (min-width: 480px) {
+      .logo-container .logo1 {
+        background: url(http://i.imgur.com/oxsLpyx.png) center center no-repeat;
+        background-size: 75%; } }
+  .logo-container .logo2 {
+    background: url(http://i.imgur.com/XAxbZnQ.png) center center no-repeat;
+    background-size: 70%;
+    width: 50%;
+    height: 100%;
+    float: left;
+    text-align: center; }
+    @media only screen and (min-width: 480px) {
+      .logo-container .logo2 {
+        background: url(http://i.imgur.com/0809k1l.png) center center no-repeat;
+        background-size: 70%; } }
