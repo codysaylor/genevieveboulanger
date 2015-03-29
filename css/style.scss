@@ -3,7 +3,6 @@
 a {color: purple; text-decoration: none;}
 a:hover {border-bottom: thin solid;}
 html, body {margin: 0; padding: 0; height: 100vh;}
-img {max-width: 100%;}
 
 .container {position: relative; height: 100vh;}
 
@@ -49,7 +48,7 @@ img {max-width: 100%;}
 	}
 }
 .photo1 {
-	background: url(//i.imgur.com/1Yp9Tay.jpg) center center no-repeat;
+	background: url(../img/yoga.jpg) center center no-repeat;
 	background-size: cover;
 	width: 50%;
 	height: 100%;
@@ -59,12 +58,12 @@ img {max-width: 100%;}
 		float: left;
 	}
 	@include MQ(M) {
-		background: url(//i.imgur.com/1Yp9Tay.jpg) center 0px no-repeat;
+		background: url(../img/yoga.jpg) center 0px no-repeat;
 		background-size: cover;
 	}
 }
 .photo2 {
-	background: url(//i.imgur.com/gQJSWsQ.jpg) center center no-repeat;
+	background: url(../img/photography.jpg) center center no-repeat;
 	background-size: cover;
 	width: 50%;
 	height: 100%;
@@ -74,30 +73,30 @@ img {max-width: 100%;}
 		float: left;
 	}
 	@include MQ(M) {
-		background: url(//i.imgur.com/gQJSWsQ.jpg) center 0px no-repeat;
+		background: url(../img/photography.jpg) center 0px no-repeat;
 		background-size: cover;
 	}
 }
 
 .headshot {
-	$width: 40vh; width: $width; height: $width; margin-left: -$width/2;
-	background: url(http://i.imgur.com/gGpYBqd.jpg) top center no-repeat;
+	$width: 35vh; width: $width; height: $width; margin-left: -$width/2;
+	background: url(../img/genevieve.jpg) top center no-repeat;
 	background-size: 100%;
 	border-radius: 50%;
 	position: absolute;
-	top: 10%;
+	top: 14%;
 	left: 50%;
 	max-width: 100%;
 	z-index: 1;
 	@include MQ(S) {
-		$width: 40vh; width: $width; height: $width; margin-left: -$width/2;
+		$width: 35vh; width: $width; height: $width; margin-left: -$width/2;
 	}
 	@include MQ(M) {
-		$width: 50vh; width: $width; height: $width; margin-left: -$width/2;
-		top: 5%;
+		$width: 40vh; width: $width; height: $width; margin-left: -$width/2;
+		top: 8%;
 	}
 	@include MQ(L) {
-		$width: 60vh; width: $width; height: $width; margin-left: -$width/2;
+		$width: 50vh; width: $width; height: $width; margin-left: -$width/2;
 	}
 }
 
@@ -112,27 +111,27 @@ img {max-width: 100%;}
 		height: 20vh;
 	}
 	.logo1 {
-		background: url(http://i.imgur.com/ATqk6DI.png) center center no-repeat;
+		background: url(../img/logo1.png) center center no-repeat;
 		background-size: 75%;
 		width: 50%;
 		height: 100%;
 		float: left;
 		text-align: center;
 		@include MQ(S) {
-			background: url(http://i.imgur.com/oxsLpyx.png) center center no-repeat;
+			background: url(../img/logo1.png) center center no-repeat;
 			background-size: 75%;
 		}
 	}
 	.logo2 {
-		background: url(http://i.imgur.com/XAxbZnQ.png) center center no-repeat;
-		background-size: 70%;
+		background: url(../img/logo2.png) center center no-repeat;
+		background-size: 75%;
 		width: 50%;
 		height: 100%;
 		float: left;
 		text-align: center;
 		@include MQ(S) {
-			background: url(http://i.imgur.com/0809k1l.png) center center no-repeat;
-			background-size: 70%;
+			background: url(../img/logo2.png) center center no-repeat;
+			background-size: 75%;
 		}
 	}
 }
