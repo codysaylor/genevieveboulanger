@@ -73,7 +73,7 @@ html, body {margin: 0; padding: 0; height: 100vh;}
 		float: left;
 	}
 	@include MQ(M) {
-		background: url(../img/photography.jpg) center 0px no-repeat;
+		background: url(../img/photography.jpg) center 50% no-repeat;
 		background-size: cover;
 	}
 }

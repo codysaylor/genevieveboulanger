@@ -77,7 +77,7 @@ html, body {
       float: left; } }
   @media only screen and (min-width: 768px) {
     .photo2 {
-      background: url(../img/photography.jpg) center 0px no-repeat;
+      background: url(../img/photography.jpg) center 50% no-repeat;
       background-size: cover; } }
 
 .headshot {
@@ -141,3 +141,5 @@ html, body {
       .logo-container .logo2 {
         background: url(../img/logo2.png) center center no-repeat;
         background-size: 75%; } }
+
+/*# sourceMappingURL=style.css.map */
