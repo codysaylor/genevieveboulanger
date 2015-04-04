@@ -62,7 +62,7 @@ html, body {
       float: left; } }
   @media only screen and (min-width: 768px) {
     .photo1 {
-      background: url(../img/yoga.jpg) center 0px no-repeat;
+      background: url(../img/yoga.jpg) center 20% no-repeat;
       background-size: cover; } }
 
 .photo2 {
@@ -77,7 +77,7 @@ html, body {
       float: left; } }
   @media only screen and (min-width: 768px) {
     .photo2 {
-      background: url(../img/photography.jpg) center 50% no-repeat;
+      background: url(../img/photography.jpg) center 30% no-repeat;
       background-size: cover; } }
 
 .headshot {
