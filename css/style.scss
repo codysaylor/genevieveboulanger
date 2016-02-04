@@ -1,3 +1,4 @@
+/* style.css */
 @import 'layout';
 
 a {color: purple; text-decoration: none;}
@@ -134,4 +135,19 @@ html, body {margin: 0; padding: 0; height: 100vh;}
 			background-size: 75%;
 		}
 	}
+}
+
+.teal {
+	color: teal;
+}
+
+.fa {
+	color: grey;
+}
+
+.foot {
+	position: fixed;
+	bottom: 10px;
+	width: 100%;
+	text-align: center;
 }
