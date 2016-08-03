@@ -124,15 +124,15 @@ html, body {margin: 0; padding: 0; height: 100vh;}
 		}
 	}
 	.logo2 {
-		background: url(../img/logo2.png) center center no-repeat;
-		background-size: 75%;
+		background: url('http://i.imgur.com/NYSlOFs.png') center center no-repeat;
+		background-size: 50%;
 		width: 50%;
 		height: 100%;
 		float: left;
 		text-align: center;
 		@include MQ(S) {
-			background: url(../img/logo2.png) center center no-repeat;
-			background-size: 75%;
+			background: url('http://i.imgur.com/NYSlOFs.png') center center no-repeat;
+			background-size: 50%;
 		}
 	}
 }
